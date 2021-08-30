@@ -295,7 +295,7 @@ int main()
 		fprintf(fptr,"\n\t\tMatch %d: %d\n",i,Final_total);
 		Tournament_points += Final_total;    //Total Fantasy Points Calculation for this Tournament//
 	} 
-	
+	 
 	//Display Total Fantasy Points in this Tournament//
 	printf("\n\nTotal Fantasy Points of %s in the tournament is = %d",name,Tournament_points);
 	fprintf(fptr,"\n\tTournament Points: %d\n",Tournament_points);
